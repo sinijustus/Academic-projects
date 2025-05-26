@@ -1,0 +1,49 @@
+name: skillaura
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.0.0
+  logger: ^2.0.2
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
+  image_picker: ^1.0.7 
+  firebase_storage: ^12.4.4
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  google_sign_in: ^6.2.2
+  provider: ^6.1.4
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.5.3
+  file_picker: ^9.2.2
+  dio: ^5.4.1
+  flutter_dotenv: ^5.0.2
+flutter_localizations:
+  sdk: flutter
+  intl: any
+  flutter_provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/cooking.jpg
+    - assets/images/tailoring.jpg
+    - assets/images/logo.png
+    - assets/images/profile.png
+    
+    - assets/images/recruiter.png
+    - assets/images/placeholder.jpg

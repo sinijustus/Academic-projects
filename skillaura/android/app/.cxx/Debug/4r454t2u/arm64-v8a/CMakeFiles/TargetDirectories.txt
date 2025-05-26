@@ -1,0 +1,2 @@
+D:/skillaura/android/app/.cxx/Debug/4r454t2u/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/skillaura/android/app/.cxx/Debug/4r454t2u/arm64-v8a/CMakeFiles/rebuild_cache.dir

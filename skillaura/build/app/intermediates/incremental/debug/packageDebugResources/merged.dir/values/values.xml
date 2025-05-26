@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1032629545223</string>
+    <string name="google_api_key" translatable="false">AIzaSyBP0d1U3M-Tv5vJXx7dTv5OVra8FOwSCns</string>
+    <string name="google_app_id" translatable="false">1:1032629545223:android:3d593bae6ba38ec521fda2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBP0d1U3M-Tv5vJXx7dTv5OVra8FOwSCns</string>
+    <string name="google_storage_bucket" translatable="false">skillaura-d2e53.firebasestorage.app</string>
+    <string name="project_id" translatable="false">skillaura-d2e53</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()  // ✅ Replaced jcenter() with mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.1'  // ✅ Updated to latest stable version
+        classpath 'com.google.gms:google-services:4.3.10'  // ✅ Ensure stable version
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()  // ✅ Replaced jcenter() with mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
